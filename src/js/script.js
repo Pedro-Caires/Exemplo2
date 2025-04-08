@@ -121,7 +121,54 @@
 
 // Condição ternaria
 
-let valor2 =301;
+// let valor2 =301;
 
-let resultado = valor2 == 300 ? "certo": "errado"
-console.log (resultado)
+// let resultado = valor2 == 300 ? "certo": "errado"
+// console.log (resultado)
+
+// SWITCH CASE
+
+// let time ="Corinthians";
+
+// switch(time){
+//     case "Corinthians":
+//         console.log("Melhor Time")
+//         break;
+//     case "Palmeiras":
+//         console.log("Não tem um mundial")
+//         break;
+//     case "São Paulo":
+//         console.log("time de viado")
+//         break;
+
+// }
+
+// // ESTRUTURAS DE LAÇOS
+
+// for(let i=0;i<10;i++){
+//     console.log("O valor de I é:", i)
+// }
+
+
+
+// ESTRUTURA DE LAÇO DE REPETIÇÃO
+
+// WHILE
+
+let w=0
+
+while(w <=10){
+    console.log("o valor de W é",w)
+    w++;
+}
+
+// do while
+
+let z=10;
+
+do{
+    console.log("do while é",z)
+    z++;
+}while(z<=100)
+
+    
