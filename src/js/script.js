@@ -74,11 +74,18 @@ console.log(num1 / num2);
 
 // OPERADORES LÓGICOS
 
-const num3 =20;
+const num3 ="20";
 const num4 =30;
 
-console.log(num3 < num4);
-console.log(num3 > num4 && num4 < 50);
-console.log(num3 > num4 || num4 > num3)
-console.log(num4 == num3 || num4 <= num3);
+// console.log(num3 < num4);
+// console.log(num3 > num4 && num4 < 50);
+// console.log(num3 > num4 || num4 > num3)
+// console.log(num4 === num3 || num4 <= num3);
 
+// OPERAÇÕES DE COMPARAÇÃO
+const num5 = 25;
+const num6 = 35;
+
+console.log(num5 == num6); //COMPARA
+console.log(num5 === num6); //COMPARA E VERIFICA O TIPO DA VÁRIAVEL
+console.log(num5 != num6); //DIFERENTE
